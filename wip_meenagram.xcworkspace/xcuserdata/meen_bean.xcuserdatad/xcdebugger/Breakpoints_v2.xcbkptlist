@@ -47,6 +47,38 @@
             endingLineNumber = "31"
             landmarkName = "login()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wip_meenagram.LoginViewController.login () -&gt; ()"
+                  moduleName = "wip_meenagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenah_burhan/Development/wip_meenagram/wip_meenagram/LoginViewController.swift"
+                  timestampString = "509588803.996143"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wip_meenagram.LoginViewController.(login () -&gt; ()).(closure #1)"
+                  moduleName = "wip_meenagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenah_burhan/Development/wip_meenagram/wip_meenagram/LoginViewController.swift"
+                  timestampString = "509588803.998083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
