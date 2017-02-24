@@ -154,13 +154,13 @@
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <items>
-                                    <barButtonItem title="Photo" id="trJ-Ei-65k">
+                                    <barButtonItem title="Take Photo" id="trJ-Ei-65k">
                                         <connections>
                                             <action selector="takePhotoAction:" destination="eKQ-zo-kfi" id="xtg-rb-uFQ"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="9wR-E8-6vg"/>
-                                    <barButtonItem title="Gallery" id="9Dg-TZ-e0u">
+                                    <barButtonItem title="Photo Gallery" id="9Dg-TZ-e0u">
                                         <connections>
                                             <action selector="pickPhotoFromGallery:" destination="eKQ-zo-kfi" id="G3Z-SM-le1"/>
                                         </connections>
