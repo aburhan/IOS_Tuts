@@ -20,7 +20,7 @@
 		2459F05F1E2D3CAC00B67E3A /* ic_add_a_photo_18pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 2459F05C1E2D3CAC00B67E3A /* ic_add_a_photo_18pt.png */; };
 		2459F0611E2D618400B67E3A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2459F0601E2D618400B67E3A /* GoogleService-Info.plist */; };
 		E508ADA91E40278B004C549B /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E508ADA81E40278B004C549B /* EditProfileViewController.swift */; };
-		E53249E51E3E992F0015FF84 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53249E41E3E992F0015FF84 /* User.swift */; };
+		E51E09D31E65112B00973D98 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51E09D21E65112B00973D98 /* User.swift */; };
 		E547B5731E39809E00F2075B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E547B5721E39809E00F2075B /* LoginViewController.swift */; };
 		E553E5061E5660A00060E2E3 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553E5051E5660A00060E2E3 /* CameraViewController.swift */; };
 		E553E50E1E57C3500060E2E3 /* CamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553E50D1E57C3500060E2E3 /* CamViewController.swift */; };
@@ -53,7 +53,7 @@
 		2459F0601E2D618400B67E3A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		249D85731E3047DF00AFF5D1 /* wip_meenagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wip_meenagram.entitlements; sourceTree = "<group>"; };
 		E508ADA81E40278B004C549B /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
-		E53249E41E3E992F0015FF84 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E51E09D21E65112B00973D98 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E547B5721E39809E00F2075B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E553E5051E5660A00060E2E3 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		E553E50D1E57C3500060E2E3 /* CamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CamViewController.swift; sourceTree = "<group>"; };
@@ -114,8 +114,8 @@
 				2459F0591E2D39F700B67E3A /*  supporting images */,
 				242F07C61E2C4A5600400462 /* LaunchScreen.storyboard */,
 				242F07C91E2C4A5600400462 /* Info.plist */,
-				E53249E41E3E992F0015FF84 /* User.swift */,
 				E5DDF6F81E42B6E900C706DC /* wip_meenagram-Bridging-Header.h */,
+				E51E09D21E65112B00973D98 /* User.swift */,
 			);
 			path = wip_meenagram;
 			sourceTree = "<group>";
@@ -297,13 +297,13 @@
 				E553E5061E5660A00060E2E3 /* CameraViewController.swift in Sources */,
 				E5EE01E01E318F9E00A1EF90 /* SignupViewController.swift in Sources */,
 				242F07BE1E2C4A5500400462 /* AppDelegate.swift in Sources */,
-				E53249E51E3E992F0015FF84 /* User.swift in Sources */,
 				E5C2A57B1E31378600D35127 /* RootPageViewController.swift in Sources */,
 				E5BE9CD91E5BE483004E5FCE /* ProfileViewController.swift in Sources */,
 				E547B5731E39809E00F2075B /* LoginViewController.swift in Sources */,
 				E5C9C7F41E4691A8005FF3CF /* EditProViewController.swift in Sources */,
 				E55C361A1E38389E0026E90E /* MainAppViewController.swift in Sources */,
 				E553E50E1E57C3500060E2E3 /* CamViewController.swift in Sources */,
+				E51E09D31E65112B00973D98 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

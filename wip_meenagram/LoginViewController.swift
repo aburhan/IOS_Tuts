@@ -21,7 +21,7 @@ class LoginViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         if FIRAuth.auth()?.currentUser?.uid != nil{
             print("User is logged in")
-            goToHome()
+            //goToHome()
         }else{
             print("NOT logged in")
         }
