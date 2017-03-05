@@ -23,12 +23,15 @@ class User{
         self.username = username
     
     }
-    func getUser()->Any{
-        let user_info:[String: String] = ["bio": self.bio,
-                                        "display":self.display,
-                                        "username": self.username,
-                                        "email": self.email,
-                                        "photo": self.photo]
-        return user_info
+    func getUserAsDictionary()->Dictionary<String, String>{
+        let newUserDictionary = ["bio":self.bio,
+                                 "display":self.display,
+                                 "email": self.email,
+                                 "photo":self.photo,
+                                 "username": self.username]
+        return newUserDictionary
+        
     }
+
+    
 }
