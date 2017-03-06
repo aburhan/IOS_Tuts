@@ -21,7 +21,9 @@ class LoginViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         if FIRAuth.auth()?.currentUser?.uid != nil{
             print("User is logged in")
-            //goToHome()
+            goToHome()
+            //logout()
+            
         }else{
             print("NOT logged in")
         }
@@ -37,7 +39,14 @@ class LoginViewController: UIViewController {
         self.goToHome()
        })
     }
-    
+    func logout(){
+        let firebaseAuth = FIRAuth.auth()
+        do {
+            try firebaseAuth?.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+    }
     func goToHome(){
         let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomePVC") as! UIPageViewController
         self.present(homeVC, animated: true, completion: nil)

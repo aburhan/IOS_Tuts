@@ -29,6 +29,7 @@
 		E5C2A57B1E31378600D35127 /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C2A57A1E31378600D35127 /* RootPageViewController.swift */; };
 		E5C2A57D1E31383E00D35127 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C2A57C1E31383E00D35127 /* Main.storyboard */; };
 		E5C9C7F41E4691A8005FF3CF /* EditProViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C9C7F31E4691A8005FF3CF /* EditProViewController.swift */; };
+		E5E47B371E6CBD58008FCDC6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E47B361E6CBD58008FCDC6 /* Post.swift */; };
 		E5EE01E01E318F9E00A1EF90 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EE01DF1E318F9E00A1EF90 /* SignupViewController.swift */; };
 		F2F767BCF2EAF39CB1EE4031 /* Pods_wip_meenagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13CC16813EA43DB19E015A38 /* Pods_wip_meenagram.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		E5C2A57C1E31383E00D35127 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
 		E5C9C7F31E4691A8005FF3CF /* EditProViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProViewController.swift; sourceTree = "<group>"; };
 		E5DDF6F81E42B6E900C706DC /* wip_meenagram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wip_meenagram-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5E47B361E6CBD58008FCDC6 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		E5EE01DF1E318F9E00A1EF90 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 				E5C9C7F31E4691A8005FF3CF /* EditProViewController.swift */,
 				E553E50D1E57C3500060E2E3 /* CamViewController.swift */,
 				E51E09D21E65112B00973D98 /* User.swift */,
+				E5E47B361E6CBD58008FCDC6 /* Post.swift */,
 				2459F0601E2D618400B67E3A /* GoogleService-Info.plist */,
 				249D85731E3047DF00AFF5D1 /* wip_meenagram.entitlements */,
 				E5C2A57C1E31383E00D35127 /* Main.storyboard */,
@@ -296,6 +299,7 @@
 				E508ADA91E40278B004C549B /* EditProfileViewController.swift in Sources */,
 				E553E5061E5660A00060E2E3 /* CameraViewController.swift in Sources */,
 				E5EE01E01E318F9E00A1EF90 /* SignupViewController.swift in Sources */,
+				E5E47B371E6CBD58008FCDC6 /* Post.swift in Sources */,
 				242F07BE1E2C4A5500400462 /* AppDelegate.swift in Sources */,
 				E5C2A57B1E31378600D35127 /* RootPageViewController.swift in Sources */,
 				E5BE9CD91E5BE483004E5FCE /* ProfileViewController.swift in Sources */,

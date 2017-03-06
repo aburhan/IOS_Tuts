@@ -12,14 +12,62 @@ class CamViewController: UIViewController, UIImagePickerControllerDelegate, UINa
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var captionTextView: UITextView!
     
+    var storageRef: FIRStorageReference!
+    var databaseRef: FIRDatabaseReference!
+   
+    
     let picker = UIImagePickerController()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        storageRef = FIRStorage.storage().reference()
+        databaseRef = FIRDatabase.database().reference()
+       
     }
 //UI Button Actions
     @IBAction func sharePhoto(_ sender: Any) {
+        //get the userid
+        let userID = FIRAuth.auth()?.currentUser?.uid
+        //get timestamp
+        let postID = NSUUID().uuidString
+        //load the image into storage
+        let postItem = storageRef.child("post").child(userID!).child(postID)
+        //get image from imageview
+        guard let postImage = postImageView.image else{return}
+        guard let postCaption = captionTextView.text else{return}
+        //convert image to PNG
+        if let imageToUpload = UIImagePNGRepresentation(postImage){
+            postItem.put(imageToUpload, metadata: nil) { (metadata, error) in
+            if error != nil{
+                print(error!)
+                return
+            }
+            //get image URL from storage
+            postItem.downloadURL(completion: { (url, error) in
+                if error != nil{
+                    print(error!)
+                    return
+                }
+                if let imageURL = url?.absoluteString{
+                    //create instance of a post
+                    let post = Post(userID: userID!, postID: postID, imageURL: imageURL, caption: postCaption)
+                    
+                    //save post to database
+                    self.databaseRef.child("posts").child(userID!).child(postID).updateChildValues(post.getPostAsDictionary(), withCompletionBlock: { (error, ref) in
+                        if error != nil{
+                            print(error!)
+                            return
+                        }
+                        let homeVC = self.storyboard?.instantiateViewController(withIdentifier: "HomePVC") as! UIPageViewController
+                        self.present(homeVC, animated: true, completion: nil)
+                    })
+                    
+                }
+            })
+        }
+        
+        
+        }
     }
     @IBAction func cancelUpload(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

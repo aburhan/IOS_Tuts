@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "wip_meenagram/AppDelegate.swift"
-            timestampString = "507360626.536672"
+            timestampString = "510453224.426172"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -40,11 +40,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "wip_meenagram/LoginViewController.swift"
-            timestampString = "508987797.599195"
+            timestampString = "510453224.426172"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "login()"
             landmarkType = "7">
          </BreakpointContent>
@@ -285,6 +285,85 @@
             endingLineNumber = "35"
             landmarkName = "signup(email:password:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wip_meenagram/NewPostViewController.swift"
+            timestampString = "510450704.750429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "sharePhoto(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "wip_meenagram/AppDelegate.swift"
+            timestampString = "510452656.450773"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wip_meenagram.AppDelegate.__deallocating_deinit"
+                  moduleName = "wip_meenagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenah_burhan/Development/wip_meenagram/wip_meenagram/AppDelegate.swift"
+                  timestampString = "510453229.496646"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "wip_meenagram.AppDelegate.init () -&gt; wip_meenagram.AppDelegate"
+                  moduleName = "wip_meenagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenah_burhan/Development/wip_meenagram/wip_meenagram/AppDelegate.swift"
+                  timestampString = "510453229.498495"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "wip_meenagram"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ameenah_burhan/Development/wip_meenagram/wip_meenagram/AppDelegate.swift"
+                  timestampString = "510453229.504937"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "22">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
